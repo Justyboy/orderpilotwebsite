@@ -55,11 +55,8 @@ const Footer = () => {
           >
             <h4 className="text-lg font-semibold">Product</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors">Features</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Pricing</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Integrations</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">API Docs</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Changelog</a></li>
+              <li><a href="/" className="hover:text-accent transition-colors">Features</a></li>
+              <li><a href="/" className="hover:text-accent transition-colors">Pricing</a></li>
             </ul>
           </motion.div>
 
@@ -91,15 +88,15 @@ const Footer = () => {
             <div className="space-y-3 text-primary-foreground/80">
               <div className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
-                <span>hello@orderpilot.com</span>
+                <span>hello@orderpilot.org</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (631) 644-7380</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-accent" />
-                <span>San Francisco, CA</span>
+                <span>Long Island, NY</span>
               </div>
             </div>
           </motion.div>
