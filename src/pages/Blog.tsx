@@ -87,7 +87,9 @@ const Blog = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="flex items-center gap-4 mb-6">
-            <img src={logo} alt="OrderPilot logo" className="w-24 h-24" />
+            <a href="/" aria-label="Go to homepage">
+              <img src={logo} alt="OrderPilot logo" className="w-24 h-24" />
+            </a>
           </div>
 
           <motion.h1
@@ -173,7 +175,7 @@ const Blog = () => {
             <img
                 src={img3}
                 alt="Customer support dashboard and notifications"
-                className="rounded-xl border border-gray-200 shadow-sm object-cover w-full h-56"
+                className="rounded-xl border border-gray-200 shadow-sm object-cover w-full h-56 my-8"
               />
             <div className="grid md:grid-cols-2 gap-6 my-8">
               <div className="rounded-xl border border-gray-200 p-5 bg-white">
@@ -197,7 +199,7 @@ const Blog = () => {
               <img
                 src={img1}
                 alt="Operations team reviewing real-time analytics"
-                className="rounded-xl border border-gray-200 shadow-sm object-cover w-full h-56"
+                className="rounded-xl border border-gray-200 shadow-sm object-cover w-full h-56 my-8"
               />
             
            
@@ -222,7 +224,7 @@ const Blog = () => {
             <img
                 src={img2}
                 alt="Order fulfillment process in action"
-                className="rounded-xl border border-gray-200 shadow-sm object-cover w-full h-56"
+                className="rounded-xl border border-gray-200 shadow-sm object-cover w-full h-56 my-8"
               />
             <h3 className="text-2xl md:text-3xl font-semibold mt-12 text-gray-900">Get Started</h3>
             <p className="text-lg md:text-xl leading-relaxed text-gray-700">
