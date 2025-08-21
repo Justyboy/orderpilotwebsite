@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Twitter, Linkedin, Github } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-accent">OrderPilot</h3>
+            <img src={logo} alt="OrderPilot logo" className="h-40 w-auto" />
             <p className="text-primary-foreground/80 leading-relaxed">
               The complete order management platform that helps businesses track orders, 
               understand customers, and scale efficiently.
@@ -70,13 +71,11 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-lg font-semibold">Company</h4>
+            <h4 className="text-lg font-semibold">OrderPilot</h4>
             <ul className="space-y-2 text-primary-foreground/80">
               <li><a href="#" className="hover:text-accent transition-colors">About</a></li>
               <li><a href="#" className="hover:text-accent transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Press</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Partners</a></li>
+
             </ul>
           </motion.div>
 
@@ -114,7 +113,7 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <p className="text-primary-foreground/60">
-            © 2024 OrderPilot. All rights reserved. | 
+            © 2025 OrderPilot. All rights reserved. | 
             <a href="#" className="hover:text-accent transition-colors ml-1">Privacy Policy</a> | 
             <a href="#" className="hover:text-accent transition-colors ml-1">Terms of Service</a>
           </p>

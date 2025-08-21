@@ -74,17 +74,19 @@ const Features = () => {
               viewport={{ once: true }}
             >
               <div className="relative z-10">
-                <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-glass backdrop-blur-sm border border-white/20 mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                  <feature.icon className={`w-6 h-6 ${feature.color}`} />
+                <div className="flex items-start gap-4">
+                  <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-glass backdrop-blur-sm border border-white/20 group-hover:scale-110 transition-transform duration-300 flex-shrink-0`}>
+                    <feature.icon className={`w-6 h-6 ${feature.color}`} />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-card-foreground mb-2 group-hover:text-accent transition-colors duration-300">
+                      {feature.title}
+                    </h3>
+                    <p className="text-muted-foreground leading-relaxed">
+                      {feature.description}
+                    </p>
+                  </div>
                 </div>
-                
-                <h3 className="text-xl font-semibold text-card-foreground mb-4 group-hover:text-accent transition-colors duration-300">
-                  {feature.title}
-                </h3>
-                
-                <p className="text-muted-foreground leading-relaxed">
-                  {feature.description}
-                </p>
               </div>
 
               {/* Hover Effect Background */}

@@ -5,7 +5,7 @@ import { Check, Star } from "lucide-react";
 const plans = [
   {
     name: "Starter",
-    price: 29,
+    price: 99,
     description: "Perfect for small businesses just getting started",
     features: [
       "Up to 1,000 orders/month",
@@ -18,7 +18,7 @@ const plans = [
   },
   {
     name: "Professional",
-    price: 79,
+    price: 149,
     description: "Ideal for growing businesses with advanced needs",
     features: [
       "Up to 10,000 orders/month",
@@ -33,7 +33,7 @@ const plans = [
   },
   {
     name: "Enterprise",
-    price: 199,
+    price: 249,
     description: "For large organizations with custom requirements",
     features: [
       "Unlimited orders",
@@ -143,7 +143,7 @@ const Pricing = () => {
             Need a custom solution? We're here to help.
           </p>
           <Button variant="ghost" className="text-accent hover:text-accent">
-            Contact Sales →
+            Contact Us →
           </Button>
         </motion.div>
       </div>

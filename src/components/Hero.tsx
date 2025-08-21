@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BarChart3, Users, Zap } from "lucide-react";
+import { ArrowRight, BarChart3, Users } from "lucide-react";
 import dashboardImage from "@/assets/dashboard-mockup.jpg";
+import logo from "@/assets/logo.png";
 
 const Hero = () => {
   return (
@@ -20,12 +21,12 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <motion.div
-              className="inline-flex items-center gap-2 bg-gradient-glass backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-white/20"
+              className="inline-flex items-center gap-2  px-4 py-2 mb-6 "
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <Zap className="w-4 h-4 text-accent" />
+              <img src={logo} alt="OrderPilot logo" className="w-28 h-28 object-contain" />
               <span className="text-sm font-medium text-primary-foreground">
                 Real-time Order Management
               </span>
