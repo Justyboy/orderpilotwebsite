@@ -87,7 +87,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent">10K+</div>
+                <div className="text-2xl font-bold text-accent">2K+</div>
                 <div className="text-sm text-primary-foreground/70">Active Users</div>
               </div>
               <div className="text-center">
@@ -95,7 +95,7 @@ const Hero = () => {
                 <div className="text-sm text-primary-foreground/70">Uptime</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent">50M+</div>
+                <div className="text-2xl font-bold text-accent">6M+</div>
                 <div className="text-sm text-primary-foreground/70">Orders Tracked</div>
               </div>
             </motion.div>
