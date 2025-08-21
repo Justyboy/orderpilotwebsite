@@ -6,13 +6,14 @@ const plans = [
   {
     name: "Starter",
     price: 99,
-    description: "Perfect for small businesses just getting started",
+    description: "Perfect for small businesses",
     features: [
-      "Up to 1,000 orders/month",
-      "Basic analytics dashboard",
+      "Custom Website + OrderPilot Dashboard",
+      "Up to 2,000 orders/month",
+      "Website hosting + domain setup",
       "Email support",
-      "Standard integrations",
-      "Mobile app access"
+      "Secure database for orders & users",
+      "Stripe integration"
     ],
     popular: false
   },
@@ -21,13 +22,12 @@ const plans = [
     price: 149,
     description: "Ideal for growing businesses with advanced needs",
     features: [
-      "Up to 10,000 orders/month",
+      "Unlimited orders & users",
       "Advanced analytics & reports",
       "Priority support",
-      "All integrations",
-      "Custom notifications",
-      "Team collaboration",
-      "API access"
+      "Automatic backups & monitoring",
+      "Custom notifications"
+      
     ],
     popular: true
   },
@@ -36,14 +36,14 @@ const plans = [
     price: 249,
     description: "For large organizations with custom requirements",
     features: [
-      "Unlimited orders",
+      
       "Custom analytics",
       "24/7 phone support",
       "Custom integrations",
       "Advanced security",
       "Dedicated account manager",
       "Custom onboarding",
-      "SLA guarantee"
+      "Quarterly strategy check-in"
     ],
     popular: false
   }
