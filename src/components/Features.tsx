@@ -9,9 +9,9 @@ const features = [
     color: "text-accent"
   },
   {
-    icon: Users,
-    title: "Customer Management",
-    description: "Track customer journeys, manage profiles, and analyze purchasing patterns to boost retention.",
+    icon: Globe,
+    title: "Online Order Management",
+    description: "ake orders 24/7 directly from your website. Track every order in real-time, update statuses, and never miss a sale again.",
     color: "text-primary-light"
   },
   {
@@ -22,20 +22,20 @@ const features = [
   },
   {
     icon: Shield,
-    title: "Enterprise Security",
-    description: "Bank-level security with encrypted data, secure APIs, and compliance with industry standards.",
+    title: "Customer Profiles & Loyalty",
+    description: "Track repeat customers, their order history, and reward them with loyalty points. Build lasting relationships that drive repeat business.",
     color: "text-primary-light"
   },
   {
-    icon: Globe,
-    title: "Global Scaling",
-    description: "Handle orders from anywhere in the world with multi-currency support and localization.",
+    icon: Users,
+    title: "Mobile-Friendly Dashboard",
+    description: "Manage orders and menus from anywhere—desktop, tablet, or phone. Your business runs smoothly, even on the go.",
     color: "text-accent"
   },
   {
     icon: Smartphone,
-    title: "Mobile Ready",
-    description: "Access your dashboard on any device with our responsive design and mobile app.",
+    title: "Staff Roles & Permissions",
+    description: "Give team members limited access to the dashboard. Control who can view orders, update menus, or manage customer data.",
     color: "text-primary-light"
   }
 ];
