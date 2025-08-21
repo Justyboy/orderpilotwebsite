@@ -74,7 +74,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">OrderPilot</h4>
             <ul className="space-y-2 text-primary-foreground/80">
               <li><a href="#" className="hover:text-accent transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Blog</a></li>
+              <li><a href="/blog" className="hover:text-accent transition-colors">Blog</a></li>
 
             </ul>
           </motion.div>
