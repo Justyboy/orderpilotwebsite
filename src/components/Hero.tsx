@@ -95,7 +95,7 @@ const Hero = () => {
                 <div className="text-sm text-primary-foreground/70">Uptime</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-accent">6M+</div>
+                <div className="text-2xl font-bold text-accent">12M+</div>
                 <div className="text-sm text-primary-foreground/70">Orders Tracked</div>
               </div>
             </motion.div>
